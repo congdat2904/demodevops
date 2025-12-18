@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo DevOps - Nhóm 11</title>
+    <style>
+        /* CSS cơ bản để trang web nhìn đẹp hơn */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background-color: #fff;
+            margin-top: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        header {
+            background: #007bff;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0056b3 3px solid;
+            border-radius: 8px 8px 0 0;
+        }
+        header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+            padding-bottom: 20px;
+        }
+        .content-section {
+            padding: 20px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .content-section h2 {
+            color: #007bff;
+        }
+        ul.team-list {
+            list-style: none;
+            padding: 0;
+        }
+        ul.team-list li {
+            background: #e9ecef;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        /* ĐÂY LÀ PHẦN QUAN TRỌNG ĐỂ DEMO */
+        .demo-status-box {
+            background-color: #d4edda; /* Màu xanh lá nhạt */
+            border: 2px solid #28a745; /* Viền xanh lá đậm */
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        .demo-status-box h2 {
+            color: #28a745;
+            margin-top: 0;
+        }
+        .highlight-text {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #dc3545; /* Màu đỏ để nổi bật */
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Báo Cáo Bài Tập Nhóm 11</h1>
+            <p style="text-align: center; font-size: 1.2em;">Chủ đề: Tìm hiểu và Ứng dụng DevOps (CI/CD) với GitHub Actions</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="content-section">
+            <h2>Về Dự Án Này</h2>
+            <p>Trang web này là một ví dụ thực tế (Proof of Concept) để minh họa quy trình <strong>Tích hợp liên tục (CI)</strong> và <strong>Triển khai liên tục (CD)</strong>.</p>
+            <p>Mục tiêu: Tự động hóa hoàn toàn việc đưa code từ máy của lập trình viên lên môi trường production mà không cần can thiệp thủ công.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Thành Viên Nhóm Thực Hiện</h2>
+            <ul class="team-list">
+                <li><strong>Nguyễn Văn A</strong> - Trưởng nhóm (Tìm hiểu lý thuyết DevOps)</li>
+                <li><strong>Trần Văn B</strong> - Thành viên (Cấu hình GitHub Actions)</li>
+                <li><strong>Lê Thị C</strong> - Thành viên (Viết báo cáo và Demo)</li>
+                </ul>
+        </section>
+
+        <section class="content-section">
+            <div class="demo-status-box">
+                <h2>TRẠNG THÁI HỆ THỐNG CI/CD</h2>
+                <p>Phiên bản hiện tại:</p>
+                
+                <p class="highlight-text">Phiên bản 1.0 - Đang chạy ổn định</p> 
+                
+                <p><small>(Khi Developer đẩy code mới, dòng chữ bên trên sẽ tự động thay đổi sau vài phút)</small></p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Bài tập môn Kiến trúc Phần mềm &copy; 2023 - Nhóm 11</p>
+    </footer>
+</body>
+</html>
